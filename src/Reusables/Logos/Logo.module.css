@@ -1,0 +1,20 @@
+.section {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.logo {
+  margin-left: 13px;
+}
+
+.logo img {
+  border: 1px solid #e1e3e9;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    width: 255px;
+    margin: 0;
+  }
+}
