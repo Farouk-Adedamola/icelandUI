@@ -11,6 +11,26 @@ import blog1 from "../../Assets/blog1.svg";
 import blog2 from "../../Assets/blog2.svg";
 import blog3 from "../../Assets/blog3.svg";
 
+// Tour
+import Tour1 from "../../Assets/Tour5.svg";
+import Tour2 from "../../Assets/tour2.svg";
+import Tour3 from "../../Assets/tour3.svg";
+import Tour4 from "../../Assets/tour4.svg";
+import Tour5 from "../../Assets/Tour5.svg";
+import Tour6 from "../../Assets/Tour6.svg";
+
+// tour2
+
+// import Tour1 from "../../Assets/tt.svg";
+// import Tour2 from "../../Assets/tt2.svg";
+// import Tour3 from "../../Assets/tt3.svg";
+// import Tour4 from "../../Assets/tt4.svg";
+// import Tour5 from "../../Assets/tt5.svg";
+// import Tour6 from "../../Assets/tt6.svg";
+
+// tour mobile
+import tourm from "../../Assets/tour1.svg";
+
 export const rentals = [
   {
     id: 1,
@@ -97,5 +117,89 @@ export const blog = [
     img: blog3,
     name: "What to expect from Iceland",
     text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience...°",
+  },
+];
+
+export const placesmobile = [
+  {
+    id: 1,
+    img: tourm,
+    name: "Glacier tour",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+  {
+    id: 2,
+    img: tourm,
+    name: "Glacier tour",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+
+  {
+    id: 3,
+    img: tourm,
+    name: "Glacier tour",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+];
+
+export const places = [
+  {
+    id: 1,
+    img: Tour1,
+    name: "Glacier tour",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+
+  {
+    id: 2,
+    img: Tour2,
+    name: "Northern lights tour in Grindavík",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+
+  {
+    id: 3,
+    img: Tour3,
+    name: "Whale watching",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+
+  {
+    id: 4,
+    img: Tour4,
+    name: "​Ice Cave Tour by Vatnajokull Glacier Departure from Jokulsarlon",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+
+  {
+    id: 5,
+    img: Tour5,
+    name: "Small Group Golden Circle Tour with Kerid Crater & the Ice Cream Farm",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
+  },
+
+  {
+    id: 6,
+    img: Tour6,
+    name: "Snorkel between Continents in Silfra Free Underwater Photos",
+    cost: "From 72 USD",
+    date: "Oct-Nov",
+    time: "2 hrs",
   },
 ];

@@ -1,0 +1,169 @@
+.main {
+  width: 90vw;
+  margin: 0 auto;
+}
+.overline {
+  background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
+  width: 47px;
+  height: 2px;
+}
+
+.header h1 {
+  font-size: 25px;
+  font-family: "bold";
+  color: #252525;
+}
+
+.header h1 {
+  font-size: 25px;
+  font-family: "bold";
+}
+
+.linked {
+  display: none;
+}
+
+.section {
+  margin: 96px 0;
+  display: none;
+}
+
+.mobile {
+  margin: 96px 0;
+}
+
+.contain {
+  position: relative;
+  margin: 24px auto;
+}
+
+.contain > img {
+  object-fit: cover;
+  width: 90vw;
+  height: 270px;
+}
+
+.child {
+  position: absolute;
+  bottom: 1rem;
+  width: 80vw;
+  left: 5vw;
+  right: 5vw;
+  background: red;
+}
+
+.child h3 {
+  font-family: "bold";
+  font-size: 20px;
+  color: #fff;
+}
+
+.children {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.children div {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.children div p {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 13px;
+  font-family: "regular";
+}
+
+.btn button {
+  background: none;
+}
+
+.btn button a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .main {
+    margin: 0;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contain > img {
+    object-fit: cover;
+    width: 346px;
+    height: 416px;
+  }
+
+  .child {
+    width: 300px;
+    left: 23px;
+    /* margin: 0 auto; */
+  }
+
+  .child h3 {
+    width: 184px;
+  }
+
+  .contain {
+    width: 348px;
+  }
+
+  .contain > img {
+    width: 348px;
+  }
+
+  .linked {
+    display: flex;
+    width: 130px;
+  }
+
+  .linked p {
+    color: #096f7c;
+    font-size: 14px;
+    font-family: "regular";
+    text-transform: uppercase;
+  }
+
+  .linked button {
+    background: none;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    margin: 0;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 57px;
+  }
+
+  .contain {
+    width: 348px;
+  }
+
+  .contain > img {
+    width: 348px;
+  }
+}
