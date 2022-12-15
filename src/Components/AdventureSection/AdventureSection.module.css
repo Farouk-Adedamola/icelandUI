@@ -56,7 +56,7 @@
   box-shadow: 7px 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 760px) {
   .adventure {
     height: 714px;
   }

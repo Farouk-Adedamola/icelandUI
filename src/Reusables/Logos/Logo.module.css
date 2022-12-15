@@ -12,6 +12,13 @@
   border: 1px solid #e1e3e9;
 }
 
+@media screen and (min-width: 760px) {
+  .section {
+    width: 200px;
+    /* transform: translateX(-16px); */
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .section {
     width: 255px;

@@ -1,0 +1,114 @@
+.main {
+  width: 90vw;
+  margin: 0 auto;
+}
+.overline {
+  background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
+  width: 47px;
+  height: 2px;
+}
+
+.main h1 {
+  font-size: 25px;
+  font-family: "bold";
+  color: #252525;
+}
+
+.section {
+  margin: 96px 0;
+}
+
+.card {
+  background: #f3f6fa;
+  padding: 68px 0 35px 35px;
+  margin: 0;
+}
+
+.contain {
+  margin: 0;
+}
+
+.contain > img {
+  transform: translateY(4rem);
+  border: 1px solid red;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #5b6780;
+  font-family: "bold";
+}
+
+.card p {
+  font-size: 14px;
+  color: #5b6780;
+  font-family: "regular";
+  width: 262px;
+}
+
+.linked {
+  display: flex;
+  width: 130px;
+}
+
+.linked p {
+  color: #096f7c;
+  font-size: 14px;
+  font-family: "regular";
+  text-transform: uppercase;
+}
+
+.linked button {
+  background: none;
+  border: none;
+}
+
+@media screen and (min-width: 450px) {
+  .card p {
+    font-size: 15px;
+    width: 302px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .main {
+    /* padding: 0 80px; */
+    margin: 0;
+  }
+
+  .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* align-items: center; */
+    gap: 1rem;
+    /* margin: 0 auto; */
+    justify-content: center;
+  }
+
+  .contain {
+    width: 300px;
+  }
+  .card h3 {
+    font-size: 23px;
+    font-family: "bold";
+  }
+  .card p {
+    font-size: 14px;
+    width: 262px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    margin: 0;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 57px;
+  }
+
+  .contain {
+    width: 342px;
+  }
+}
