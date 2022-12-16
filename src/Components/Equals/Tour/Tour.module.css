@@ -49,13 +49,13 @@
   width: 80vw;
   left: 5vw;
   right: 5vw;
-  background: red;
 }
 
 .child h3 {
   font-family: "bold";
   font-size: 20px;
   color: #fff;
+  text-shadow: 0px 0px 20px #000000;
 }
 
 .children {
@@ -77,12 +77,21 @@
   font-family: "regular";
 }
 
+.btn {
+  margin: 28px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .btn button {
   background: none;
+  border: none;
 }
 
 .btn button a {
   text-decoration: none;
+  color: #096f7c;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 700px) {

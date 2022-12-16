@@ -12,7 +12,7 @@ import blog2 from "../../Assets/blog2.svg";
 import blog3 from "../../Assets/blog3.svg";
 
 // Tour
-import Tour1 from "../../Assets/Tour5.svg";
+import Tour1 from "../../Assets/mobilepng.png";
 import Tour2 from "../../Assets/tour2.svg";
 import Tour3 from "../../Assets/tour3.svg";
 import Tour4 from "../../Assets/tour4.svg";
@@ -29,7 +29,8 @@ import Tour6 from "../../Assets/Tour6.svg";
 // import Tour6 from "../../Assets/tt6.svg";
 
 // tour mobile
-import tourm from "../../Assets/tour1.svg";
+// import tourm from "../../Assets/tour1.svg";
+import tourm from "../../Assets/mobilepng.png";
 
 export const rentals = [
   {
