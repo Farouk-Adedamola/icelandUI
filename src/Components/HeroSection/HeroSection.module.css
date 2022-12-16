@@ -1,0 +1,116 @@
+.section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section h1 {
+  font-size: 35px;
+  font-family: "bold";
+  width: 285px;
+  color: #252525;
+}
+
+.section h1 span {
+  color: #097882;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+  /* transform: translateY(1rem); */
+  /* bottom: 0; */
+  /* align-self: baseline; */
+  /* margin-bottom: 0; */
+  /* width: 60vw; */
+  /* margin: 0 auto; */
+  background: #f9fbff;
+}
+
+.buttons button {
+  padding: 15px 20px;
+  font-size: 14px;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  /* margin-bottom: 0; */
+  transition: all 1s;
+  margin-bottom: 0;
+}
+
+.buttons button:last-child {
+  background: #097882;
+  /* padding: 20px 40px; */
+}
+
+.container {
+  margin-top: 0;
+  padding-top: 0;
+  /* padding-bottom: 4rem; */
+  background: linear-gradient(66.7deg, #099292 -66.11%, #085e71 100%);
+}
+
+.render {
+  background: #f9fbff;
+  width: 85vw;
+  margin: 0 auto;
+  transition: all 1s;
+  /* padding: 15px 0; */
+}
+
+.render ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  transition: all 1s;
+  border-bottom: 1px solid #e1e3e9;
+  margin-top: 0;
+}
+
+.render ul:nth-child(4) {
+  border-bottom: none;
+}
+
+.render ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.render ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "regular";
+  color: #99a0ad;
+}
+
+.search {
+  background: linear-gradient(66.7deg, #ffaf65 -66.11%, #cc8129 100%);
+  padding: 0.7rem;
+}
+
+.search button {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.check {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 0;
+  padding-top: 24px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.checked p {
+  color: #fff;
+  font-size: 14px;
+  width: 133px;
+  font-weight: "regular";
+}
