@@ -1,6 +1,6 @@
 .main {
   width: 90vw;
-  margin: 0 auto;
+  margin: 240px auto;
 }
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 760px) {
   .main {
-    /* margin: 0 auto; */
+    margin-top: 90px;
   }
 
   .article {
@@ -90,11 +90,6 @@
     justify-content: center;
     margin-top: 47px;
     padding: 0 40px;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    justify-content: center;
-    margin: 0 auto; */
   }
 
   .card {
@@ -118,17 +113,17 @@
 
 @media screen and (min-width: 960px) {
   .card {
-    width: 348px;
+    width: 300px;
   }
 
   .contain {
-    width: 348px;
+    width: 300px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main {
-    margin: 0;
+    margin-top: 120px;
   }
 
   .section {

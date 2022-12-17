@@ -5,26 +5,10 @@ const SecondaryNav = () => {
   // const [money, setMoney] = useState(false);
   // const [lang, setLang] = useState(false);
   const [value, setValue] = useState(0);
-  // const [showLinks, setShowLinks] = useState(false);
-  // const linksContainerRef = useRef(null);
-  // const linksRef = useRef(null);
 
   const Cart = () => {
     setValue(value + 1);
   };
-
-  // const toggleLinks = () => {
-  //   setShowLinks(!showLinks);
-  // };
-
-  // useEffect(() => {
-  //   const linksHeight = linksRef.current.getBoundingClientRect().height;
-  //   if (showLinks) {
-  //     linksContainerRef.current.style.height = `${linksHeight}px`;
-  //   } else {
-  //     linksContainerRef.current.style.height = "0px";
-  //   }
-  // }, [showLinks]);
 
   return (
     <Fragment>

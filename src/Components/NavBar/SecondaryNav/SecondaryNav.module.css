@@ -26,11 +26,6 @@ button {
   margin-left: 5px;
 }
 
-/* .wrapper {
-  display: flex;
-  flex-direction: column;
-} */
-
 .list ul {
   display: flex;
   list-style: none;
@@ -47,9 +42,6 @@ button {
   color: #535968;
   font-size: 16px;
   font-family: "regular";
-}
-
-.cart button {
 }
 
 .cart button p {

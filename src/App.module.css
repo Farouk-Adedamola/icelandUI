@@ -2,14 +2,39 @@
   background-color: #f0f4fa;
 }
 
+.wrap img {
+  width: 311px;
+  height: 470px;
+}
+
+.sliderSection {
+  height: 360px;
+  background: linear-gradient(
+    66.7deg,
+    rgba(143, 149, 168, 0.2) -66.11%,
+    rgba(198, 206, 221, 0.2) 100%
+  );
+}
+
+.slider {
+  padding-left: 20px;
+}
+
 @media screen and (min-width: 760px) {
   .section {
     padding: 90px 50px;
+  }
+  .slider {
+    padding-left: 40px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .section {
     padding: 198px 80px;
+  }
+
+  .slider {
+    padding-left: 60px;
   }
 }

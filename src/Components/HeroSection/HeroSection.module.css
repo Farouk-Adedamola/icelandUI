@@ -4,9 +4,7 @@
 }
 
 .section h1 {
-  /* border: 1px solid red; */
   font-size: 35px;
-  /* display: block; */
   font-family: "bold";
   width: 285px;
   color: #252525;
@@ -126,7 +124,6 @@
   }
   .main {
     width: 50%;
-    border: 1px solid red;
     margin-top: 0;
     align-self: flex-start;
   }
@@ -152,7 +149,6 @@
     margin-left: 153px;
   }
   .text {
-    border: 1px solid red;
     padding-left: 57px;
     position: absolute;
     bottom: 53px;
@@ -172,6 +168,5 @@
   .text p:last-child {
     font-size: 30px;
     font-family: "bold";
-    /* color: ; */
   }
 }

@@ -26,7 +26,7 @@ const NavBar = () => {
           <section>
             <div className={fix ? classes.scroll : classes.fixed}>
               <h1>In Iceland</h1>
-              <div style={{ border: "1px solid red" }} className={classes.flex}>
+              <div className={classes.flex}>
                 <SecondaryNav />
               </div>
               <div className={classes.images}>
@@ -50,9 +50,6 @@ const NavBar = () => {
                 </li>
               </ul>
             </div>
-            {/* <div style={{ border: "1px solid red" }}>
-              <SecondaryNav />
-            </div> */}
           </section>
         </div>
       </section>
