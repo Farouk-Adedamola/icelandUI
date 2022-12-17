@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import classes from "./Footer.module.css";
 import { info, list } from "./Footerdata";
-// components
-// import Logo from "../../Reusables/Logos/Logo";
+import { Logos } from "./Footerdata";
+
 import Footerdpdw from "../../Reusables/FooterDropdown/Footerdpdw";
 
 const Footer = () => {
@@ -35,9 +35,16 @@ const Footer = () => {
           <div>
             <Footerdpdw />
           </div>
-          {/* <div>
-            <Logo />
-          </div> */}
+          <section className={classes.sect}>
+            {Logos.map((eachLogo) => {
+              const { id, img, CSS } = eachLogo;
+              return (
+                <div key={id} className={classes.logo}>
+                  <img src={img} alt="" style={CSS} />
+                </div>
+              );
+            })}
+          </section>
         </main>
       </section>
     </Fragment>

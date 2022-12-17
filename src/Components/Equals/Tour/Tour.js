@@ -12,7 +12,7 @@ const Tour = () => {
       <main className={classes.main}>
         <div className={classes.overline}></div>
         <div className={classes.header}>
-          <h1>Popular tours</h1>
+          <h2>Popular tours</h2>
           <div className={classes.linked}>
             <p>View all</p>
             <button>

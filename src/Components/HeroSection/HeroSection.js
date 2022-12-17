@@ -5,7 +5,7 @@ import dropdown from "../../Assets/dropdown.svg";
 import check from "../../Assets/checked.svg";
 import heroback from "../../Assets/heroback.svg";
 const HeroSection = () => {
-  const [tours, setTours] = useState(false);
+  const [tours, setTours] = useState(true);
   const [wifi, setWifi] = useState(false);
   const [rent, setRent] = useState(false);
 
@@ -165,6 +165,10 @@ const HeroSection = () => {
         </main>
         <main className={classes.secondmain}>
           <img src={heroback} alt="heroback" />
+          <div className={classes.text}>
+            <p>we recommend</p>
+            <p>6 day winter circle</p>
+          </div>
         </main>
       </article>
     </Fragment>

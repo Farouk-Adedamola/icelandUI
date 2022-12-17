@@ -5,6 +5,12 @@ import car4 from "../../Assets/car44.svg";
 import car5 from "../../Assets/car555.svg";
 import car6 from "../../Assets/car66.svg";
 
+// rental mobile
+
+import carr1 from "../../Assets/car11.svg";
+import carr2 from "../../Assets/car22.svg";
+import carr4 from "../../Assets/car44.svg";
+
 // blog images
 
 import blog1 from "../../Assets/blog1.svg";
@@ -37,7 +43,6 @@ export const rentals = [
     id: 1,
     img: car1,
     name: "Economy cars",
-    // css: { height: "161px" },
     text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.",
   },
 
@@ -45,7 +50,6 @@ export const rentals = [
     id: 2,
     img: car2,
     name: "4x4 cars",
-    // css: { height: "132px" },
     text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.",
   },
 
@@ -53,7 +57,6 @@ export const rentals = [
     id: 3,
     img: car3,
     name: "Mini vans and shuttles",
-    // css: { height: "128px" },
     text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.",
   },
 
@@ -202,5 +205,28 @@ export const places = [
     cost: "From 72 USD",
     date: "Oct-Nov",
     time: "2 hrs",
+  },
+];
+
+export const rentalMobile = [
+  {
+    id: 1,
+    img: carr1,
+    name: "Economy cars",
+    text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.",
+  },
+
+  {
+    id: 2,
+    img: carr2,
+    name: "4x4 cars",
+    text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.",
+  },
+
+  {
+    id: 3,
+    img: carr4,
+    name: "Mini vans and shuttles",
+    text: "The ultimate road trip vehicles. Experiencing Iceland behind the wheel of a 4x4 rental car is an experience unlike any other.",
   },
 ];

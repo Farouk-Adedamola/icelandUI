@@ -12,7 +12,6 @@ function App() {
   return (
     <Fragment>
       <section className={classes.Hero}>
-        {/* <SecondaryNav /> */}
         <NavBar />
         <HeroSection />
       </section>

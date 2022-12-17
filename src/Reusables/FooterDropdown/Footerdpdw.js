@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import classes from "./Footerdpdw.module.css";
 import dropdown from "../../Assets/dropdown.svg";
-import Logo from "../Logos/Logo";
+// import Logo from "../Logos/Logo";
 
 const Footerdpdw = () => {
   const [langActive, setLangActive] = useState(false);
@@ -55,9 +55,9 @@ const Footerdpdw = () => {
           </ul>
         )}
       </div>
-      <div className={classes.Logo}>
+      {/* <div className={classes.Logo}>
         <Logo />
-      </div>
+      </div> */}
     </section>
   );
 };

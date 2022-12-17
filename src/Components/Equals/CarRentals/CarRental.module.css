@@ -8,14 +8,19 @@
   height: 2px;
 }
 
-.main h1 {
+.main h2 {
   font-size: 25px;
   font-family: "bold";
   color: #252525;
 }
 
 .section {
-  margin: 96px 0;
+  display: none;
+}
+
+.article {
+  padding-top: 0;
+  margin-top: 0px;
 }
 
 .card {
@@ -30,7 +35,6 @@
 
 .contain > img {
   transform: translateY(4rem);
-  border: 1px solid red;
 }
 
 .card h3 {
@@ -72,21 +76,35 @@
 
 @media screen and (min-width: 760px) {
   .main {
-    /* padding: 0 80px; */
-    margin: 0;
+    /* margin: 0 auto; */
+  }
+
+  .article {
+    display: none;
   }
 
   .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* align-items: center; */
     gap: 1rem;
-    /* margin: 0 auto; */
     justify-content: center;
+    margin-top: 47px;
+    padding: 0 40px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    margin: 0 auto; */
+  }
+
+  .card {
+    height: 250px;
+    padding-right: 25px;
+    width: 250px;
   }
 
   .contain {
-    width: 300px;
+    width: 260px;
   }
   .card h3 {
     font-size: 23px;
@@ -98,17 +116,33 @@
   }
 }
 
+@media screen and (min-width: 960px) {
+  .card {
+    width: 348px;
+  }
+
+  .contain {
+    width: 348px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .main {
     margin: 0;
   }
+
   .section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 57px;
+    padding: 0;
+  }
+
+  .card {
+    width: 280px;
   }
 
   .contain {
-    width: 342px;
+    width: 280;
   }
 }

@@ -1,6 +1,6 @@
 .main {
   width: 90vw;
-  margin: 0 auto;
+  margin: 39px auto 39px auto;
 }
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
@@ -8,15 +8,10 @@
   height: 2px;
 }
 
-.header h1 {
+.header h2 {
   font-size: 25px;
   font-family: "bold";
   color: #252525;
-}
-
-.header h1 {
-  font-size: 25px;
-  font-family: "bold";
 }
 
 .linked {
@@ -29,7 +24,7 @@
 }
 
 .mobile {
-  margin: 96px 0;
+  margin-top: 36px;
 }
 
 .contain {
@@ -67,7 +62,6 @@
 .children div {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .children div p {
@@ -109,7 +103,9 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
     justify-content: center;
+    margin-top: 47px;
   }
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -133,10 +129,6 @@
   }
 
   .contain {
-    width: 348px;
-  }
-
-  .contain > img {
     width: 348px;
   }
 

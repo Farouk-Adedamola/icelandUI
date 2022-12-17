@@ -1,6 +1,6 @@
 .main {
   width: 90vw;
-  margin: 0 auto;
+  margin: 70px auto 0 auto;
 }
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
@@ -28,7 +28,7 @@
 }
 
 .section {
-  margin: 96px 0;
+  margin: 38px 0;
 }
 
 .card {
@@ -85,13 +85,15 @@
 
 @media screen and (min-width: 760px) {
   .main {
-    margin: 0;
+    margin-top: 100px;
   }
   .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 57px;
     justify-content: center;
+    margin-top: 61px;
+    padding: 0 40px;
   }
   .header {
     display: flex;
@@ -111,17 +113,13 @@
     font-size: 23px;
     font-family: "bold";
   }
-  
+
   .contain {
     width: 348px;
   }
 
   .contain > img {
     width: 348px;
-  }
-
-  .card {
-    /* width: 300px; */
   }
 
   .card p {
@@ -149,7 +147,7 @@
 
 @media screen and (min-width: 1200px) {
   .main {
-    margin: 0;
+    margin-top: 140px;
   }
   .section {
     display: grid;
