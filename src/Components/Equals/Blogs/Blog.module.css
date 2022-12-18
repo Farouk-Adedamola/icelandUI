@@ -93,10 +93,8 @@
   .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 57px; */
     justify-content: center;
     margin-top: 61px;
-    /* padding: 0 40px; */
   }
   .header {
     display: flex;
@@ -155,7 +153,6 @@
   .section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 57px; */
   }
 
   .contain {
