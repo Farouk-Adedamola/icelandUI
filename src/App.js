@@ -14,9 +14,9 @@ import HeroSection from "./Components/HeroSection/HeroSection";
 
 // images
 import slide1 from "./Assets/mobilepng.png";
-import slide2 from "./Assets/things2.svg";
-import slide3 from "./Assets/things3.svg";
-import slide4 from "./Assets/things4.svg";
+import slide2 from "./Assets/things2.png";
+import slide3 from "./Assets/things3.png";
+import slide4 from "./Assets/things4.png";
 import slide5 from "./Assets/tour4.svg";
 
 function App() {
