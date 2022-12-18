@@ -5,6 +5,23 @@
 .wrap img {
   width: 311px;
   height: 470px;
+  position: relative;
+}
+
+.thingstext {
+}
+
+.wrap p {
+  position: absolute;
+  bottom: 50px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: #fff;
+  font-family: "bold";
+}
+
+.wrap p:last-child {
+  display: none;
 }
 
 .sliderSection {
@@ -29,10 +46,22 @@
   .slider {
     padding-left: 40px;
   }
+
+  .wrap p:last-child {
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    font-size: 14px;
+    padding-left: 30px;
+    font-family: "regular";
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  .section,
+  .section {
+    padding: 48px 80px;
+  }
+
   .secondSection {
     padding: 198px 80px;
   }

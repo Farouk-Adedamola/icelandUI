@@ -6,12 +6,17 @@
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
   width: 47px;
   height: 2px;
+  margin-bottom: 0;
 }
 
 .header h2 {
   font-size: 25px;
   font-family: "bold";
   color: #252525;
+}
+
+.header {
+  margin-top: 0;
 }
 
 .linked {
@@ -152,12 +157,13 @@
 
 @media screen and (min-width: 1200px) {
   .main {
-    margin: 0;
+    margin-top: 20px;
   }
   .section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 57px;
+    margin-top: 0;
   }
 
   .contain {
@@ -169,6 +175,7 @@
   }
 
   .header h2 {
+    margin-top: 19px;
     font-size: 45px;
   }
 }

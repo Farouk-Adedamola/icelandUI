@@ -32,7 +32,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: -50px;
+  margin-top: -25px;
 }
 
 .carouselwrapper {
@@ -99,7 +99,7 @@
 }
 
 .btn {
-  margin: -65px auto 0 auto;
+  margin: -35px auto 0 auto;
   display: flex;
   justify-content: center;
 }
@@ -169,6 +169,15 @@
 
   .carousel-content.show-4 > * {
     width: 10%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .carouselcontainer {
+    margin-top: 50px;
+  }
+  .btn {
+    margin-top: 10px;
   }
 }
 

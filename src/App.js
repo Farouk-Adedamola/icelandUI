@@ -13,11 +13,11 @@ import NavBar from "./Components/NavBar/PrimaryNav/NavBar";
 import HeroSection from "./Components/HeroSection/HeroSection";
 
 // images
-import slide1 from "./Assets/tour2.svg";
-import slide2 from "./Assets/tour3.svg";
-import slide3 from "./Assets/tour4.svg";
-import slide4 from "./Assets/Tour6.svg";
-import slide5 from "./Assets/Tour5.svg";
+import slide1 from "./Assets/mobilepng.png";
+import slide2 from "./Assets/things2.svg";
+import slide3 from "./Assets/things3.svg";
+import slide4 from "./Assets/things4.svg";
+import slide5 from "./Assets/tour4.svg";
 
 function App() {
   return (
@@ -41,26 +41,35 @@ function App() {
             <div>
               <div className={classes.wrap} style={{ padding: 8 }}>
                 <img src={slide1} alt="placeholder" style={{ width: "100%" }} />
+                <p>Glacier tours</p>
+                <p>From 72 USD</p>
               </div>
             </div>
             <div>
               <div className={classes.wrap} style={{ padding: 8 }}>
                 <img src={slide2} alt="placeholder" style={{ width: "100%" }} />
+                <p>Nothern light</p>
+                <p>From 72 USD</p>
               </div>
             </div>
             <div>
               <div className={classes.wrap} style={{ padding: 8 }}>
                 <img src={slide3} alt="placeholder" style={{ width: "100%" }} />
+                <p>Golden circle</p>
+                <p>From 72 USD</p>
               </div>
             </div>
             <div>
               <div className={classes.wrap} style={{ padding: 8 }}>
                 <img src={slide4} alt="placeholder" style={{ width: "100%" }} />
+                <p>Snowmobile</p>
+                <p>From 72 USD</p>
               </div>
             </div>
             <div>
               <div className={classes.wrap} style={{ padding: 8 }}>
                 <img src={slide5} alt="placeholder" style={{ width: "100%" }} />
+                <p>Glaziers</p>
               </div>
             </div>
           </Slider>

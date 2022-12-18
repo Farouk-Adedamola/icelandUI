@@ -68,6 +68,9 @@
 }
 
 @media screen and (min-width: 450px) {
+  .main {
+    margin-top: 350px;
+  }
   .card p {
     font-size: 15px;
     width: 302px;
@@ -76,7 +79,7 @@
 
 @media screen and (min-width: 760px) {
   .main {
-    margin-top: 90px;
+    margin-top: 160px;
   }
 
   .article {
@@ -86,10 +89,10 @@
   .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 57px;
     justify-content: center;
     margin-top: 47px;
-    padding: 0 40px;
+    /* padding: 0 40px; */
   }
 
   .card {
@@ -111,6 +114,12 @@
   }
 }
 
+@media screen and (min-width: 880px) {
+  .main {
+    margin-top: 200px;
+  }
+}
+
 @media screen and (min-width: 960px) {
   .card {
     width: 300px;
@@ -118,6 +127,12 @@
 
   .contain {
     width: 300px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .main {
+    margin-top: 240px;
   }
 }
 

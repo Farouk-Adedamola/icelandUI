@@ -115,11 +115,11 @@
   }
 
   .contain {
-    width: 348px;
+    width: 320px;
   }
 
   .contain > img {
-    width: 348px;
+    width: 320px;
   }
 
   .card p {

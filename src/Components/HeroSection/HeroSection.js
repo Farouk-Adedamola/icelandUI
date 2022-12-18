@@ -4,6 +4,7 @@ import classes from "./HeroSection.module.css";
 import dropdown from "../../Assets/dropdown.svg";
 import check from "../../Assets/checked.svg";
 import heroback from "../../Assets/heroback.svg";
+import secondarrow from "../../Assets/secondarrow.svg";
 const HeroSection = () => {
   const [tours, setTours] = useState(true);
   const [wifi, setWifi] = useState(false);
@@ -167,7 +168,17 @@ const HeroSection = () => {
           <img src={heroback} alt="heroback" />
           <div className={classes.text}>
             <p>we recommend</p>
-            <p>6 day winter circle</p>
+            <div className={classes.header}>
+              <p>6 day winter circle</p>
+              <div className={classes.linked}>
+                <p>View all</p>
+                <button>
+                  <a href="/">
+                    <img src={secondarrow} alt="" />
+                  </a>
+                </button>
+              </div>
+            </div>
           </div>
         </main>
       </article>
