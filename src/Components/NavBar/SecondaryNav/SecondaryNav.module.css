@@ -47,7 +47,7 @@ button {
 .cart button p {
   background: #5ab9fc;
   border-radius: 50%;
-  padding: 4px;
+  padding: 4px 6px;
   color: #fff;
 }
 
