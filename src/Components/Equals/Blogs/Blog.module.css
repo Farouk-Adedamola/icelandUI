@@ -61,12 +61,15 @@
 
 .link {
   display: flex;
-  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
 }
 
 .link p {
   color: #096f7c;
   font-size: 14px;
+  width: 78px;
   font-family: "regular";
   text-transform: uppercase;
 }
