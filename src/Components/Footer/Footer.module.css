@@ -28,6 +28,10 @@
   padding-top: 72px;
 }
 
+.footerSection {
+  padding-bottom: 20px;
+}
+
 @media screen and (min-width: 760px) {
   .footerSection {
     padding: 86px 40px 45px 50px;
@@ -60,13 +64,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .footerSection {
-    /* padding: 86px 150px 115px 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-template-columns: 1fr 1fr; */
-  }
   .container1 {
     width: 70%;
     align-self: flex-end;

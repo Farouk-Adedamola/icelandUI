@@ -62,7 +62,7 @@ h1 {
 }
 
 .article ul li {
-  background: #fff;
+  /* background: #fff; */
   margin-top: 0.5rem;
   padding: 0.4rem 0.6rem;
   transition: all 0.5s;
@@ -71,9 +71,12 @@ h1 {
 .article ul li a {
   text-decoration: none;
   font-size: 1.5rem;
-  /* color: #e67e22; */
+  font-family: "bold";
   text-transform: capitalize;
   transition: all 0.2s;
+  background: linear-gradient(to right, #178598 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (min-width: 760px) {

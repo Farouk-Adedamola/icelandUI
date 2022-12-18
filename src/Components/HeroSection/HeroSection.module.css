@@ -1,6 +1,7 @@
 .section {
   padding-left: 15px;
   padding-right: 15px;
+  /* border: 1px solid red; */
 }
 
 .section h1 {
@@ -40,7 +41,6 @@
   width: 85vw;
   margin: 0 auto;
   transition: all 1s;
-  /* padding: 15px 0; */
 }
 
 .render ul {
@@ -168,5 +168,11 @@
   .text p:last-child {
     font-size: 30px;
     font-family: "bold";
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .secondmain img {
+    width: 49vw;
   }
 }

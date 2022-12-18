@@ -167,4 +167,8 @@
   .contain > img {
     width: 348px;
   }
+
+  .header h2 {
+    font-size: 45px;
+  }
 }

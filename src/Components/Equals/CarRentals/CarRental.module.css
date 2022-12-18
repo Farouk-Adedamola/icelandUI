@@ -1,6 +1,6 @@
 .main {
   width: 90vw;
-  margin: 240px auto;
+  margin: 240px auto 0 auto;
 }
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
@@ -123,7 +123,7 @@
 
 @media screen and (min-width: 1200px) {
   .main {
-    margin-top: 120px;
+    margin-top: 180px;
   }
 
   .section {
@@ -139,5 +139,9 @@
 
   .contain {
     width: 280;
+  }
+
+  .main h2 {
+    font-size: 45px;
   }
 }

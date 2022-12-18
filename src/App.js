@@ -6,6 +6,8 @@ import CarRental from "./Components/Equals/CarRentals/CarRental";
 import Blog from "./Components/Equals/Blogs/Blog";
 import Tour from "./Components/Equals/Tour/Tour";
 
+// equals
+
 import Slider from "./Components/Equals/ThingsTodoSlider/Slider";
 import NavBar from "./Components/NavBar/PrimaryNav/NavBar";
 import HeroSection from "./Components/HeroSection/HeroSection";
@@ -64,7 +66,7 @@ function App() {
           </Slider>
         </div>
       </article>
-      <section className={classes.section}>
+      <section className={classes.secondSection}>
         <CarRental />
         <Blog />
       </section>
