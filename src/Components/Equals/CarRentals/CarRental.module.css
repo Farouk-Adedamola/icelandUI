@@ -1,6 +1,10 @@
 .main {
-  width: 90vw;
   margin: 240px auto 0 auto;
+}
+@media screen and (max-width: 760px) {
+  .main {
+    width: 90vw;
+  }
 }
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
@@ -89,28 +93,30 @@
   .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 57px;
     justify-content: center;
     margin-top: 47px;
-    /* padding: 0 40px; */
   }
 
   .card {
     height: 250px;
     padding-right: 25px;
-    width: 250px;
   }
 
   .contain {
-    width: 260px;
+    width: 320px;
   }
+
   .card h3 {
     font-size: 23px;
     font-family: "bold";
   }
   .card p {
     font-size: 14px;
-    width: 262px;
+    width: 250px;
+  }
+
+  .contain > img {
+    width: 250px;
   }
 }
 
@@ -121,12 +127,8 @@
 }
 
 @media screen and (min-width: 960px) {
-  .card {
-    width: 300px;
-  }
-
-  .contain {
-    width: 300px;
+  .card p {
+    width: 250px;
   }
 }
 
@@ -144,19 +146,36 @@
   .section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 57px;
     padding: 0;
   }
 
-  .card {
-    width: 280px;
+  .contain {
+    width: 300px;
   }
 
-  .contain {
-    width: 280;
+  .contain > img {
+    width: 220px;
+  }
+
+  .card p {
+    width: 195px;
   }
 
   .main h2 {
     font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .card {
+    width: 348px;
+  }
+
+  .contain {
+    width: 348px;
+  }
+
+  .card p {
+    width: 280px;
   }
 }

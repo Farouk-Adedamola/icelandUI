@@ -1,7 +1,13 @@
 .main {
-  width: 90vw;
   margin: 39px auto 39px auto;
 }
+
+@media screen and (max-width: 760px) {
+  .main {
+    width: calc(100vw - 10vw);
+  }
+}
+
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
   width: 47px;
@@ -101,13 +107,14 @@
 
 @media screen and (min-width: 760px) {
   .main {
-    margin: 0;
+    margin: 0 auto;
   }
+
   .section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
     justify-content: center;
+    gap: 57px;
     margin-top: 47px;
   }
 
@@ -119,14 +126,13 @@
 
   .contain > img {
     object-fit: cover;
-    width: 346px;
+    width: 300px;
     height: 416px;
   }
 
   .child {
     width: 300px;
     left: 23px;
-    /* margin: 0 auto; */
   }
 
   .child h3 {
@@ -134,12 +140,11 @@
   }
 
   .contain {
-    width: 348px;
+    width: 300px;
   }
 
   .linked {
     display: flex;
-    width: 130px;
   }
 
   .linked p {
@@ -162,20 +167,31 @@
   .section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 57px;
     margin-top: 0;
+    gap: 1rem;
+    justify-content: start;
   }
 
+  .contain {
+    width: 300px;
+  }
+
+  .contain > img {
+    width: 300px;
+  }
+
+  .header h2 {
+    margin-top: 19px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
   .contain {
     width: 348px;
   }
 
   .contain > img {
     width: 348px;
-  }
-
-  .header h2 {
-    margin-top: 19px;
-    font-size: 45px;
   }
 }

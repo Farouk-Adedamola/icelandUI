@@ -1,6 +1,11 @@
 .main {
-  width: 90vw;
   margin: 70px auto 0 auto;
+}
+
+@media screen and (max-width: 760px) {
+  .main {
+    width: 90vw;
+  }
 }
 .overline {
   background: linear-gradient(66.7deg, #ffffff -66.11%, #e1ecff 100%);
@@ -146,6 +151,21 @@
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 30px; */
+  }
+  .contain {
+    width: 340px;
+  }
+
+  .contain > img {
+    width: 340px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .main {
     margin-top: 140px;
@@ -156,6 +176,27 @@
   }
 
   .contain {
+    width: 300px;
+  }
+
+  .contain > img {
+    width: 300px;
+  }
+
+  .header h1 {
+    font-size: 45px;
+  }
+
+  .card p {
+    width: 245px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section {
+    /* width: calc(100vw - 300px); */
+  }
+  .contain {
     width: 348px;
   }
 
@@ -163,7 +204,7 @@
     width: 348px;
   }
 
-  .header h1 {
-    font-size: 45px;
+  .card p {
+    width: 262px;
   }
 }

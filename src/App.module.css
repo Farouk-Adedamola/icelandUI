@@ -57,15 +57,17 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .section {
-    padding: 48px 80px;
+    padding: 48px 150px;
   }
 
   .secondSection {
-    padding: 198px 80px;
+    padding: 198px 150px;
   }
+}
 
+@media screen and (min-width: 1200px) {
   .slider {
     padding-left: 60px;
   }
